@@ -1,0 +1,3 @@
+[default.general]
+chip = "MSPM0L1306"
+chip_descriptions = ["MSPM0L_Series.yaml"]
