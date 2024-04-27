@@ -27,7 +27,7 @@ The first step of creating the basic project template is to run the following co
 
 ```
 //This creates and renames the project at the specified GitHub to the current directory
-cargo generate --git OUR GITHUB MUST BE UPDATED --name myproject 
+cargo generate --git https://github.com/WKNick/MSPM0L1306-BASIC-RUST-CONFIG --name myproject 
 ```
 
 The main file that needs to be configured is Cargo.toml specifically the [package] and [dependencies] portions. The dependencies do not need anything currently but will need to be built upon to specify new versions of Crates and also to enable access to additional Crates. The package portion does need to be changed to have the correct author name, rust version, and name. It will also require a version number and repository if the project is to be a Crate instead of a project that will be flashed onto the board.
